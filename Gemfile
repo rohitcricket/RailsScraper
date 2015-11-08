@@ -51,3 +51,6 @@ end
   # Use Simple Form
   gem 'simple_form'
 
+  # Use Devise for authentication
+  gem 'devise'
+
