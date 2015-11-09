@@ -54,3 +54,6 @@ end
   # Use Devise for authentication
   gem 'devise'
 
+  # Validate url
+  gem "validate_url"
+
