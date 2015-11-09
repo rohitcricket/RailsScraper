@@ -4,7 +4,7 @@ class MoviesController < ApplicationController
   respond_to :html
 
   def index
-    @movies = Movie.all
+    @movies = current_user.movies
     respond_with(@movies)
   end
 
@@ -21,7 +21,7 @@ class MoviesController < ApplicationController
   end
 
   def create
-    @movie = Movie.new(movie_params)
+    @movie = current_user.movies.new(movie_params)
     @movie.save
     respond_with(@movie)
   end
