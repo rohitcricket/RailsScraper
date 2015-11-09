@@ -57,3 +57,6 @@ end
   # Validate url
   gem "validate_url"
 
+  # Use Nokogiri
+  gem 'nokogiri'
+
