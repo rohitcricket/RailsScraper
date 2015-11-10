@@ -21,9 +21,3 @@ class Scrape
 		end
 	end
 end
-
-		runtime: self.runtime
-			)
-		movie.save
-	end
-end
