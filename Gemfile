@@ -60,3 +60,9 @@ end
   # Use Nokogiri
   gem 'nokogiri'
 
+  # Use Utilities for cleaning up UTF8 strings
+  gem 'utf8_utils'
+
+  
+
+
